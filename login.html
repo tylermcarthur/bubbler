@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Document</title>
+    
+</head>
+<body class='text-center' id="body2">
+    <div class="container">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary rounded">
+            <div class="container-fluid">
+                <button type="button" class="btn btn-primary disabled" id="createBubble">Create a bubble</button>
+                <a class="nav-link disabled" href="login.html " id="login">Login</a>
+                <a class="nav-link active" href="index.html" id="home">Home</a>
+                <button type="button" class="btn btn-success" id="donate">Donate</button>
+            </div>
+        </nav>
+    </div>
+    <h3 class="h3 mb-3 font-weight-normal position-absolute" id="login-text">Sign in Here</h1>
+    <form class="form-signin d-flex flex-column bg-white w-50 rounded-3" id="signInForm">
+            <div class="mb-3">
+                <label for="emailInput" class="form-label m-auto" >Email Address</label>
+                <input type="email" class="form-control " id="emailInput" aria-describedby="emailHelp">
+                <div id="emailHelp" class="form-text mb-3"> This dosen't actually work yet.....But SOOON!!!!</div>
+                
+                <label for='passwordInput' class="form-label mb-1">Password</label>
+                <input type="password" class="form-control mb-0     " id="passwordInput">
+                <div class="mb-3 form-check">
+                    <label for="remembermeBox" class="form-check-label"> Remember Me</label>
+                    <input type="checkbox" class="form-check-input" id="remembermeBox">
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+    </form>
+
+
+    <script src="mover.js"></script>
+    <script src="https://unpkg.com/@popperjs/core@2.4.0/dist/umd/popper.min"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="jquery.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

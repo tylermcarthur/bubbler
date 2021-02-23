@@ -1,0 +1,57 @@
+
+  .bubble {
+  width: 50px;
+  height:50px;
+  border-style: dashed;
+  border-color: red;
+  background-color:lightblue;
+  position:absolute;
+  }
+  #login{
+    color:white;
+  }
+  #home{
+    color:white;
+  }
+  #body1{
+    background-color: dodgerblue;
+  }
+  #body2{
+    background-color: cadetblue;
+  }
+  #body3{
+    background-color: gray;
+  }
+  .bubbleHolder{
+    position:absolute;
+    right: 25%;
+    width: 50%;
+    height: 80%;
+    background-color: darkblue;
+    color: darkblue;
+  }
+  #signInForm{
+    position: absolute;
+    right: 25%;
+    top: 30%;
+  }
+  #login-text{
+    top: 25%;
+    right: 45%;
+  }
+  .subjectSelector{
+    position: absolute;
+    left: 10.5%;
+    top: 7%;
+    width: 14%;
+    height: 80%;
+    background-color: #4542f5;
+  }
+  .subjectSelector-DKmode{
+    position: absolute;
+    left: 10.5%;
+    top: 7%;
+    width: 14%;
+    height: 80%;
+    background-color: lightslategrey;
+  }
